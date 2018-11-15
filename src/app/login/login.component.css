@@ -1,0 +1,29 @@
+.login_cont *{
+    display: block;
+    
+}
+
+.login_cont{
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    box-shadow: #a2a2a2 2px 2px 2px;
+    border: solid 1px #a2a2a2;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.login_cont input{
+    margin: 0 auto;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.login_cont button{
+    margin: 0 auto;
+    padding: 10px 20px;
+    border:none;
+}
+.login_wrapper{
+    width: 100%;
+}

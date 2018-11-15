@@ -1,0 +1,16 @@
+<div class="box_container">
+    <h1>
+        CREATE POST
+    </h1>
+    <textarea [(ngModel)]="post">
+
+    </textarea>
+    <div *ngFor="let p of posts">
+        {{p}}
+    </div>
+    <div>
+        <button (click)="submitPost(postInput)">
+            SUBMIT
+        </button>
+    </div>
+</div>

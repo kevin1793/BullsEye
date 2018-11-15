@@ -1,0 +1,13 @@
+<div class="login_wrapper">
+    <div class="login_cont">
+        <h1>Login</h1>
+        <input [(ngModel)]="user">
+        <input [(ngModel)]="pass">
+        <button>Login</button>
+    </div>
+</div>
+
+<div *ngFor="let p of posts | async">
+    {{p.title}}<br>
+    {{p.content}}
+</div>

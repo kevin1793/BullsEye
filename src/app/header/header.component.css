@@ -1,0 +1,39 @@
+.header_wrapper{
+    width: 100%;
+    box-shadow: 2px 2px 2px #333;
+    
+}
+.header_cont{
+    text-align: center;
+    padding: 20px 10px;
+    background: #1976d2;
+    height: 40px;
+    
+}
+.header_items{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.header_item{
+    width: 100px;
+    padding: 10px 0px;
+    transition: font-size 1s;
+}
+.header_item:hover{
+    text-decoration: none;
+    /* text-decoration-line: #333; */
+    font-size: 18px;
+
+    transition: font-size .5s;
+}
+.profile{
+    text-align: center;
+    margin-left: auto;
+    width: 100px;
+}
+
+.no_link{
+    color: unset;
+    text-decoration-line: none;
+}
